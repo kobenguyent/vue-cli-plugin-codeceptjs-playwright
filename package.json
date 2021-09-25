@@ -1,11 +1,11 @@
 {
   "name": "vue-cli-plugin-codeceptjs-playwright",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "e2e codeceptjs & playwright plugin for vue-cli",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codecept-js/vue-cli-plugin-codeceptjs-puppeteer.git"
+    "url": "git+https://github.com/PeterNgTr/vue-cli-plugin-codeceptjs-playwright"
   },
   "keywords": [
     "vue",
@@ -18,9 +18,9 @@
   "author": "PeterNgTr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codecept-js/vue-cli-plugin-codeceptjs-puppeteer/issues"
+    "url": "https://github.com/PeterNgTr/vue-cli-plugin-codeceptjs-playwright/issues"
   },
-  "homepage": "https://github.com/codecept-js/vue-cli-plugin-codeceptjs-puppeteer",
+  "homepage": "https://github.com/PeterNgTr/vue-cli-plugin-codeceptjs-playwright",
   "publishConfig": {
     "access": "public"
   },

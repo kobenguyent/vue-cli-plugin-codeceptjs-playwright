@@ -1,10 +1,10 @@
-# vue-cli-plugin-e2e-codeceptjs
+# vue-cli-plugin-e2e-codeceptjs-playwright
 
 *Hey, how about some end 2 end testing for your Vue apps?* 🤔
 
-*Let's do it together! Vue, me, [CodeceptJS](https://codecept.io) & [Playwright](https://playwright.dev).* 🤗
+*Let's do it together! Vue, [CodeceptJS](https://codecept.io) & [Playwright](https://playwright.dev) and myself.* 🤗
 
-*Browser testing was never that simple. Just see it!* 😍
+*Browser testing would be more fun. Just see it!* 😍
 
 ```js
 I.amOnPage('/');
@@ -18,17 +18,22 @@ I.say('I am happy!');
 
 **Requirements:** 
 
-* NodeJS >= 8.9
+* NodeJS >= 8.9.1
 * NPM / Yarn
 * Vue CLI installed globally
+
+Note:
+
+* CodeceptJS requires Node.js version 8.9.1+ or later.
+* To use the parallel test execution, requiring Node.js version 11.7 or later.
 
 ```
 npm i vue-cli-plugin-codeceptjs-playwright --save-dev
 ```
 
-This will install CodeceptJS, CodeceptUI & Playwright with Chrome browser.
+This will install CodeceptJS, CodeceptUI & Playwright.
 
-To add CodeceptJS to your project invoke installer:
+To add CodeceptJS to your project, invoke the installer:
 
 ```
 vue invoke vue-cli-plugin-codeceptjs-playwright
@@ -72,7 +77,7 @@ npm run test:e2e:parallel -- 3 --serve
 
 * `test:e2e:open` - this opens interactive web test runner. So you could see, review & run your tests from a browser.
 
-![](https://user-images.githubusercontent.com/220264/70399222-b7a1bc00-1a2a-11ea-8f0b-2878b0328161.gif)
+![](http://g.recordit.co/2oFa0LM0q6.gif)
 
 ```
 npm run test:e2e:open
