@@ -18,7 +18,7 @@ I.say('I am happy!');
 
 **Requirements:** 
 
-* NodeJS >= 8.9.1
+* NodeJS >= 14.* as required by playwright
 * NPM / Yarn
 * Vue CLI installed globally
 
@@ -26,6 +26,7 @@ Note:
 
 * CodeceptJS requires Node.js version 8.9.1+ or later.
 * To use the parallel test execution, requiring Node.js version 11.7 or later.
+* NodeJS >= 14.* as required by playwright
 
 ```
 npm i vue-cli-plugin-codeceptjs-playwright --save-dev
